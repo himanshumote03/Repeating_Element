@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class RepeatElement {
+class Main2 {
     public static void repeatingNumbers(int arr[], int n) {
         int i, j;
         System.out.print("Repeating Elements are { ");
@@ -14,7 +14,6 @@ class RepeatElement {
     }
 
     public static void main(String[] args) {
-        RepeatElement repeat = new RepeatElement();
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
